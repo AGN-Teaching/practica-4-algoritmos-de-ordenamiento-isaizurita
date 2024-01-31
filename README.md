@@ -71,7 +71,7 @@ Realizaremos un análisis detallado de datos específicos, seguido del cálculo 
 En el primer escenario, al considerar arreglos pequeños de tamaño 5, se obtiene la siguiente información. Se evidencia una marcada diferencia (aunque medida en nanosegundos), entre el rendimiento de mergeSort en comparación con los demás algoritmos. Esta disparidad se atribuye a la complejidad inherente de ```mergeSort```. En contraste, los algoritmos iterativos, junto con ```quickSort```, exhiben una velocidad de ejecución más favorable para arreglos de este tamaño. Fue un caso bastante similar para arreglos de tamaño 10 y 50, ya que se podrían considerar también arreglos pequeños.
 
 
-![Captura de pantalla 2024-01-31 a la(s) 12 08 15 a m](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/3b167f1c-54f1-40f4-afde-33018808d66b)
+<img width="609" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/71e7a7eb-8145-4abf-8459-ff938460285e">
 
 
 <img width="715" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/2e729884-4c17-45e0-839d-ebd9296c4280">
@@ -87,7 +87,8 @@ En particular, al analizar el caso del arreglo de tamaño 100000, se evidencia u
 Asimismo, se destaca que el rendimiento del algoritmo ```bubbleSort``` ya no resulta conveniente en estos escenarios. Este algoritmo muestra tiempos de ejecución significativamente más altos en comparación con los demás, llegando incluso a superar en tiempo al conjunto combinado de los demás algoritmos en ciertos casos. Este hallazgo refuerza la ineficacia de ```bubbleSort``` en situaciones con conjuntos de datos más extensos, subrayando la necesidad de optar por enfoques más eficientes en tales escenarios.
 
 
-![Captura de pantalla 2024-01-31 a la(s) 12 13 35 a m](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/c1874a47-cbfd-4544-8d67-3169d317d011)
+<img width="609" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/03947f6e-48e7-4623-959d-322fcc7eaed0">
+
 
 <img width="717" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/97a797cb-9f5a-4294-bda3-49a4b562fbdb">
 
@@ -96,9 +97,8 @@ Asimismo, se destaca que el rendimiento del algoritmo ```bubbleSort``` ya no res
 
 En última instancia, en los casos de arreglos de tamaño considerable (1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1000000000), los algoritmos ```insertionSort```, ```selectionSort``` y ```bubbleSort``` se vuelven prácticamente obsoletos. Sus tiempos de ejecución proyectan lapsos que podrían extenderse a días, semanas o incluso meses, lo que motiva a limitar el análisis a los algoritmos ```mergeSort``` y ```quickSort```. Estos últimos demuestran ser más eficientes y muestran una gran estabilidad en arreglos de magnitudes tan amplias, con tiempos de ejecución relativamente rápidos. La comparación revela una varianza no tan pronunciada entre ambos algoritmos, destacando su capacidad eficiente para llevar a cabo ordenamientos en conjuntos de datos de esta envergadura. Los resultados detallados y gráficos respaldan este análisis.
 
-n=100,000,000
+<img width="324" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/b531059e-2c2a-4796-8237-a3349c1e0b1b">
 
-![Captura de pantalla 2024-01-31 a la(s) 12 21 45 a m](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/2a62c401-3756-4ab8-a12c-9132429ac9c9)
 
 <img width="846" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/370efa28-f09d-4c5e-8cef-77ce4872598a">
 
