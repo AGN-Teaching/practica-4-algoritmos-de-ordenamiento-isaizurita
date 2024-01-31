@@ -138,11 +138,19 @@ A pesar de que ```insertionSort``` no figura como la opción óptima para la cla
 
 <img width="1198" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/6aa200aa-1087-482a-aa6e-9146633ff851">
 
+<br>
+<br>
+
+**Conclusiones**
 
 
+En conclusión, tras llevar a cabo experimentos para evaluar el tiempo de ejecución de diversos algoritmos de ordenamiento, se ha obtenido una perspectiva valiosa sobre su rendimiento en diferentes escenarios. 
 
+En arreglos pequeños, la complejidad de algoritmos como mergeSort destaca, mientras que los enfoques iterativos, como quickSort, demuestran ser más eficientes. A medida que aumenta el tamaño del arreglo, se evidencia la superioridad de mergeSort y quickSort sobre sus contrapartes iterativas, especialmente en el manejo de grandes conjuntos de datos. 
 
+La desviación estándar proporciona insights sobre la consistencia de los resultados, destacando la precisión de algoritmos como insertionSort, que, aunque menos eficientes, demuestran estabilidad en sus ejecuciones. En conjunto, estos experimentos ofrecen una comprensión práctica del rendimiento de los algoritmos de ordenamiento en función del tamaño del conjunto de datos, proporcionando información valiosa para la selección adecuada de algoritmos en diferentes contextos.
 
+La elección del algoritmo dependerá de nuestras necesidades y de los desafíos específicos que enfrentemos, requiriendo una comprensión precisa para aplicarlos en situaciones apropiadas. En términos prácticos, es similar a no emplear un martillo eléctrico para clavar un clavo cuando un martillo convencional es más adecuado. Utilizar algoritmos poderosos puede resultar contraproducente si no se gestionan correctamente los recursos. Por lo tanto, es crucial desarrollar la habilidad de discernir cuándo y cómo aplicar estos valiosos algoritmos de manera efectiva.
 
-
+En general, me siento satisfecho con la comprensión que se desarrolló sobre los algoritmos de ordenamiento durante este proceso. Esta práctica ha ampliado mi perspectiva sobre la optimización de algoritmos en diferentes contextos. La capacidad de experimentar y analizar el rendimiento en arreglos de varios tamaños me ha permitido apreciar las complejidades prácticas de estos algoritmos.
 
