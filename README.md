@@ -138,10 +138,12 @@ A pesar de que ```insertionSort``` no figura como la opción óptima para la cla
 
 <img width="1198" alt="image" src="https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-isaizurita/assets/141947909/6aa200aa-1087-482a-aa6e-9146633ff851">
 
+*Todos los datos generados por ordenamiento.cpp se encuentran disponibles en el siguiente documento https://1drv.ms/x/s!Ar_Wu3atACIVzzJE0RBMDFcyZcP1
+
 <br>
 <br>
 
-*Todos los datos generados por ordenamiento.cpp se encuentran disponibles en el siguiente documento https://1drv.ms/x/s!Ar_Wu3atACIVzzJE0RBMDFcyZcP1
+
 
 **Conclusiones**
 
